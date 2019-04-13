@@ -1,0 +1,5 @@
+# gitcommands
+
+# Add Username and emailaddress
+git config --global user.name roshra
+git config --global user.email roshmohanr@gmail.com
