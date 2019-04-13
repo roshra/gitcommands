@@ -1,5 +1,6 @@
 References :
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html
+https://help.github.com/en/articles/adding-an-existing-project-to-github-using-the-command-line
 
 # gitcommands
 
@@ -32,4 +33,15 @@ git add *
 git commit -m "any comment"
 git push origin master
 git --rebase origin
+
+# Now if you already have a repository on git and wanted to push
+<Get repository URL>
+Go to the directory on local machine - /FIND/JAVA
+Do a clone command 
+	git clone <Get repository URL>
+Set new remote : 
+	git remote -v 
+	git add *
+	git commit -m "comments"
+	git push origin master
 
