@@ -3,3 +3,24 @@
 # Add Username and emailaddress
 git config --global user.name roshra
 git config --global user.email roshmohanr@gmail.com
+
+# Confirm the global username and password is entered
+git config --global user.name
+git config --global user.email
+
+# Confirm global list
+git config --global --list
+
+# Clone a repository
+# This can be done via HTTPS or SSH
+git clone <http url path to clone>>
+git clone <SSH Path>
+
+# To get the latest changes on brach
+git checkout master
+
+# To work on upto-date copy 
+# from the last instance you cloned or pulled the project 
+git pull REMOTE master
+
+>
