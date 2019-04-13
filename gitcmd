@@ -23,4 +23,9 @@ git checkout master
 # from the last instance you cloned or pulled the project 
 git pull REMOTE master
 
->
+# Post Changes to local git repository push to git
+# From the local repository which needs push
+git add * 
+git commit -m "any comment"
+git push origin master
+git --rebase origin
